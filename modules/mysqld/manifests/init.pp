@@ -37,7 +37,6 @@ class mysqld {
             owner => 'mysql',
             group => 'mysql',
             mode => 0644,
-            content => '',
             require => Package['mysql-server']
         }
     }
